@@ -33,6 +33,7 @@ Created by **Md. Tauseef - Ur - Rahman**
 ## 📂 GitHub Repositories
 - [Cryptex by itsraiharshit](https://github.com/itsraiharshit/cryptex) - 📜 A collection of scripts and tools for cryptographic CTF challenges.
 - [Intigriti CTF Python Scripts](https://github.com/Tamcode/intigriti-ctf/blob/master/ctf.py) - 🐍 Useful Python scripts for solving CTF challenges.
+- [CTF Tools by zardus](https://github.com/zardus/ctf-tools/tree/master) - 🧰 A comprehensive collection of CTF tools for various challenges.
 
 ---
 
