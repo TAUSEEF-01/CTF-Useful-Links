@@ -15,3 +15,5 @@ strings flag.png | grep pico // give information about a file
 mmls disk.flag.img // disk partition size check
 
 zsteg pico.flag.png // very help ful tool to get flag from image. we can use stegsolve software instead of this.
+
+strings blogger.pcapng | grep "EWU{" > results.txt
