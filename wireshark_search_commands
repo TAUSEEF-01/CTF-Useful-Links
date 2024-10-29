@@ -1,0 +1,3 @@
+Example of a Display Filter for Malware Detection
+Here’s an example of a display filter you can use to look for HTTP requests to suspicious domains:
+--> http.request.uri contains "malicious-domain.com"
