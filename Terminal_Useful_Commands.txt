@@ -36,5 +36,65 @@ srch_strings -t d dds2-alpine.flag.img | grep -iE 'flag|ctf' // can be solved wi
 gzip -d dds*.gz // to unzip the file
 
 
-git show // to view the previous changes in the git repository
+cat etc/password // sometime it gives hashes
+
+
 git branch // to show if there are other branches
+
+git show // to view the previous changes in the git repository
+
+git show <commit_id> 
+
+git log 
+
+git log -p message.py
+
+/* 
+    git log: This command shows the commit history for the current branch or repository. By default, it lists the commits in reverse chronological order (most recent first).
+
+    -p: This option stands for "patch." It shows the diff (the changes) introduced in each commit alongside the commit messages. Essentially, it displays what was added or removed in each commit affecting the specified file.
+
+    message.py: This specifies the file for which you want to see the commit history and changes. Only commits that modified message.py will be displayed.
+*/
+
+
+grep -r "pico" <folder_name> // recursively go through all the files and try to find the flag
+
+
+symlinks:
+ln -s /root/<file_name> <target_file_name>
+
+/*
+    i.e: ln -s /root/flag.txt banner
+
+    Purpose of the Symlink:
+
+    A symlink allows you to access /root/flag.txt through the banner link. When you try to read or access banner, you are effectively accessing /root/flag.txt.
+    This is useful in cases where you might not have direct permission to view files in /root, but you can create a link to them in a different directory where access might be less restricted.
+
+*/
+
+sudo -l
+/*
+    The sudo -l command lists the sudo privileges for the current user, showing which commands they are allowed (or not allowed) to run with sudo.
+
+    When you type sudo -l, you can see:
+    1.Allowed Commands
+    2. Matching Defaults
+
+    This command is especially useful in restricted environments (like CTF challenges) where you might have limited sudo permissions, 
+
+*/
+
+
+running commands through vi:
+
+sudo vi 
+
+then --> :! cat flag.txt
+or --> :! ls -la /root/
+
+
+
+connect to a ssh port --> 
+ssh -p 64904 picoplayer@saturn.picoctf.net
