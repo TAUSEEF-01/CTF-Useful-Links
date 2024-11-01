@@ -8,14 +8,33 @@ eog flag.png // to show image
 binwalk flag.png // to check if there are hidden zip files
 binwalk -e flag.png // to extract additional zip files hidden within the png file
 
+
 file flag.png // give information about a file
+
 
 strings flag.png | grep pico // give information about a file
 
+
 mmls disk.flag.img // disk partition size check
+
 
 zsteg pico.flag.png // very help ful tool to get flag from image. we can use stegsolve software instead of this.
 
+
 strings blogger.pcapng | grep "EWU{" > results.txt
 
+
 exiftool you_know_what_to_do.wav    
+
+
+tcpflow -r capture.flag.pcap // for net cat problems --> where we may need to use wireshark
+
+
+srch_strings -t d dds2-alpine.flag.img | grep -iE 'flag|ctf' // can be solved with autopsy --> forensics challenge
+
+
+gzip -d dds*.gz // to unzip the file
+
+
+git show // to view the previous changes in the git repository
+git branch // to show if there are other branches
