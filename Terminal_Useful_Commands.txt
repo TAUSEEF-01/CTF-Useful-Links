@@ -108,3 +108,7 @@ find / -name '*pico*' 2>/dev/null
 
 inspect a file that can be run by ./<file_name>:
 man <file_name>
+
+
+commands to guess the password using john the ripper:
+/home/mdtauseef/johnTheRipper/john/run/john hash --wordlist=/home/mdtauseef/rockyou/rockyou.txt
