@@ -98,3 +98,13 @@ or --> :! ls -la /root/
 
 connect to a ssh port --> 
 ssh -p 64904 picoplayer@saturn.picoctf.net
+
+
+Check for Flags in the System:
+Search for text files or other common flag locations: 
+find / -name '*pico*' 2>/dev/null
+
+
+
+inspect a file that can be run by ./<file_name>:
+man <file_name>
