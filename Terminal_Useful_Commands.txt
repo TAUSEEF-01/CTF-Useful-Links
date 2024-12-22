@@ -112,3 +112,19 @@ man <file_name>
 
 commands to guess the password using john the ripper:
 /home/mdtauseef/johnTheRipper/john/run/john hash --wordlist=/home/mdtauseef/rockyou/rockyou.txt
+
+
+{
+    1. to examine a file -->   rabin2 -I <file_name> 
+
+    2. r2 -d -A <file_name> 
+
+    3. then --> afl                         <--- this will give the memory location of all the programs
+}
+    or, 
+{
+    objdump -D <file_name> | grep <function_name>      <--- this will give the memory location of the function
+}
+
+
+

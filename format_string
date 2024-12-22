@@ -1,0 +1,13 @@
+%p%p%p%%p%p%p%%p%p%p% 
+
+%x %x %x %x %x 
+
+%s
+
+%x %s
+
+%x,%x,%x,%x,%x,%x,%x,%x,%x,%x,%x,%x,%x,%x,%x,%x,%x
+
+%14$x,%15$x,%16$x,%17$x,%18$x,
+
+%14$llx,%15$llx,%16$llx,%17$llx,%18$llx, --> for long long
