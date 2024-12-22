@@ -1,0 +1,1 @@
+john hash.txt --wordlist=/usr/share/wordlists/rockyou.txt  --format=HMAC-SHA256
