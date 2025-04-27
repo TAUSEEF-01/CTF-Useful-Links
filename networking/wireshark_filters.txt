@@ -1,0 +1,6 @@
+strings <file_name> > go.txt  // converting pcapng file to text file for further digging 
+
+http.request.uri == "/register" && http.request.method == "POST"
+
+http && http.request.uri contains "login"
+

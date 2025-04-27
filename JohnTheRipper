@@ -1,1 +1,6 @@
 john hash.txt --wordlist=/usr/share/wordlists/rockyou.txt  --format=HMAC-SHA256
+
+
+flask-unsign --unsign --wordlist /usr/share/wordlists/rockyou.txt --cookie 'eyJ2ZXJ5X2F1dGgiOiJibGFuayJ9.Z2qHCQ.1NpLNBD7GEl9RMny9EQOBMK18dQ' --no-literal-eval
+
+
